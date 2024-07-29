@@ -1,0 +1,34 @@
+*{
+    font-size: 18px;
+}
+
+.homepage_input{
+    display: inline-block;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #bcbdc0;
+    width: 30%;
+    position: relative;
+    padding: 0 20px;
+}
+
+.homepage_submit{
+    width: 140px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 50px;
+    background-color: #25d8ed;
+    border: 2px solid #25d8ed;
+    font-family: "Calibri", "Roboto", sans-serif;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    text-align: center;
+}
+
+.homepage_submit:hover {
+    color: #a3d063;
+    background-color: #fff;
+    border: 2px solid #fff;
+  }
